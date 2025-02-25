@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ext-llm",
-    version="0.1.2",
+    name="ext_llm",
+    version="0.1.3",
     description="A wrapper library to abstract common llm providers",
     author="Giovanni Pio Grieco",
     author_email="gio.grieco@stud.uniroma3.it",
