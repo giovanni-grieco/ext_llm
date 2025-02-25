@@ -1,3 +1,3 @@
-# LLMX - a wrapper library for common LLM libraries
+# ext_llm - a wrapper library for common LLMs
 
 
