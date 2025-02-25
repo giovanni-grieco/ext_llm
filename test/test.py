@@ -1,5 +1,5 @@
-from ext_llm import LLMXClient
+import ext_llm
 
-client = LLMXClient()
+config : str = open("ext_llm_config.yaml").read()
 
-print(client.generate_text("system_prompt", "prompt", 10, 0.5))
+print(ext_llm.ExtLlmContext(config).get_configs()["models"])

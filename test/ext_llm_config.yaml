@@ -1,0 +1,10 @@
+config:
+  global_param1: abc
+  global_param2: cbd
+  models:
+    - name: AWS
+      param1: qwerty
+      param2: "44"
+    - name: Groq
+      param1: "13"
+      param2: "http://example.com"

@@ -10,6 +10,7 @@ setup(
     packages=find_packages(),  # Automatically find and include all packages
     install_requires=[
         # List your dependencies here
+        "pyyaml",
     ],
     url="https://github.com/giovanni-grieco/llmx",
 )
