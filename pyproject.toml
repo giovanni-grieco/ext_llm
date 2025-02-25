@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "llmx"  # Your package name
+name = "ext-llm"  # Your package name
 version = "0.1.0"
 description = "A wrapper library to abstract common llm providers"
 readme = "README.md"
@@ -16,4 +16,4 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/my_library"
+Homepage = "https://github.com/giovanni-grieco/llmx"
