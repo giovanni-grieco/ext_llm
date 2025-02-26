@@ -17,4 +17,4 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/giovanni-grieco/llmx"
+Homepage = "https://github.com/giovanni-grieco/ext_llm"

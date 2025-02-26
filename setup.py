@@ -12,5 +12,5 @@ setup(
         # List your dependencies here
         "pyyaml",
     ],
-    url="https://github.com/giovanni-grieco/llmx",
+    url="https://github.com/giovanni-grieco/ext_llm",
 )
