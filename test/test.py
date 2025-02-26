@@ -7,4 +7,5 @@ config : str = open("ext_llm_config.yaml").read()
 extllm = xllm.init(config)
 
 print(extllm.list_available_models())
-print(extllm.get_model("aws"))
+llm_client = extllm.get_model("aws")
+llm_client.generate_text("You're an helpful assistant", "Say hello world", 10, 0.5)
