@@ -3,12 +3,12 @@ config:
   global_param2: cbd
   models:
       aws:
-        module_name: "ext_llm.llm"
+        module_name: ext_llm.aws_llm
         class_name: AwsLlm
         param1: qwerty
         param2: "44"
       groq:
-        module_name: "ext_llm.llm"
+        module_name: ext_llm.groq_llm
         class_name: GroqLlm
         param1: "13"
         param2: "http://example.com"
