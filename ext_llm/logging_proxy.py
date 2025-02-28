@@ -1,3 +1,5 @@
+from time import sleep
+
 from ext_llm.llm import Llm
 
 class LlmLoggingProxy(Llm):
