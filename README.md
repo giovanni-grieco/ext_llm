@@ -1,6 +1,8 @@
 # ext_llm - a wrapper library for common LLMs (WIP)
 ## Installation
-```bash pip install ext_llm```
+```bash 
+pip install ext_llm
+```
 ## Usage
 ```python
 import ext_llm as xllm
@@ -21,4 +23,4 @@ future2 = llm_client1.generate_text("You're an helpful assistant", "Say hello wo
 # blocking calls waiting for the result
 print(future2.result())
 print(future1.result())
-
+```
