@@ -5,8 +5,8 @@ config:
       aws:
         module_name: ext_llm.aws_llm
         class_name: AwsLlm
-        param1: qwerty
-        param2: "44"
+        aws_access_key_id: "123"
+        aws_secret_access_key: "456"
       groq:
         module_name: ext_llm.groq_llm
         class_name: GroqLlm
